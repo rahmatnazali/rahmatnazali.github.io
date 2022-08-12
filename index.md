@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages (Work in progress template)
+## Welcome!
+
+This is a WIP page.
+
+---
 
 You can use the [editor on GitHub](https://github.com/rahmatnazali/rahmatnazali.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
