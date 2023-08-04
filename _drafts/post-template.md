@@ -11,13 +11,13 @@ This is the content of the post
 ## Personal Note
 
 This is how you attach an image:
-![duck image](/asssets/misc/duck.jpeg)
+![duck image](/assets/misc/duck.jpeg)
 
 ---
 
 This is an image with caption
 
-| ![duck image](/asssets/misc/duck.jpeg) | 
+| ![duck image](/assets/misc/duck.jpeg) | 
 |:--------------------------------------:| 
 |        *A lovely duck, is it?*         |
 
