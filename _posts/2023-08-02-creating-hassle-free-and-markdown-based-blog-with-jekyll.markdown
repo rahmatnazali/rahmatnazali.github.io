@@ -195,7 +195,7 @@ and since the default configuration is to deploy from the `/(root)` directory of
 I managed to seamlessly deploy my site without configure anything. 
 There will be a default GitHub Actions that build the entire site and triggered on each push to the `main` branch. 
 
-Wait for the pipeline (took ~5s for me), and confirm that your site is up! 🥳🎉
+Wait for the pipeline (took ~50s for me), and confirm that your site is up! 🥳🎉
 
 So now you got free & nice looking site waiting to contain all your writings!
 

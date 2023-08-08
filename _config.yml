@@ -34,7 +34,7 @@ twitter_username: "rahmatnazali95"
 linkedin_username: "rahmat-nazali-salimi-43391a13b"
 
 header_pages:
-  - cv.markdown
+  - profile.markdown
   - about.markdown
 
 theme: minima
