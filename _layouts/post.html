@@ -19,10 +19,6 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
@@ -34,6 +30,6 @@ layout: default
   </p>
 </section>
 
-{% if site.disqus.shortname %}
+{% if site.disqus.shortname and site.disqus.enable %}
   {% include disqus_comments.html %}
 {% endif %}

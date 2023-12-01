@@ -27,6 +27,7 @@ url: "https://rahmatnazali.github.io"
 google_analytics: G-14GYDRDZNH
 disqus:
   shortname: rahmatnazali
+  enable: false
 
 github_username:  "rahmatnazali"
 youtube_username:  "@trubusthecactus"
