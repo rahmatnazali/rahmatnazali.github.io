@@ -25,7 +25,7 @@ The unit can switch its state according to the surrounding situation, and we (th
 
 To give some gamification, I added resource to spawn the unit, and declare a goal to get rid all the other team, and that's it.
 
-It's a downloadable executable file:
+It's playable in browser, Windows, and Linux platform:
 
 <iframe frameborder="0" src="https://itch.io/embed/2379186?linkback=true" width="552" height="167"></iframe>
 
