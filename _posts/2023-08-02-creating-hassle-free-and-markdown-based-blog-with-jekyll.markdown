@@ -16,11 +16,11 @@ This post documents all my hiccups for setting up this site, so you don't have t
 Expect small amount of time investment reading the official documentation of GitHub Pages, Jekyll, and some SO-ing.
 Especially if you are like me who never touched ruby nor jekyll before.
 
->The super-cool thing about this stack is that, after a minimal setup on `_config.yml` and some optional theme 
+The super-cool thing about this stack is that, after a minimal setup on `_config.yml` and some optional theme 
 overriding to your need, you ended up with a framework that accepts pure markdown-formatted plain text,
 ready to keep all of your future writing with style without any html coding involved! 
->
->After that and so on, creating a new post is as simple as pushing a new markdown file and Jekyll will automatically 
+
+After that and so on, creating a new post is as simple as pushing a new markdown file and Jekyll will automatically 
 decorate the content according to the applied theme. Again, no html involved! ❤️
 
 
