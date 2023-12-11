@@ -50,7 +50,7 @@ karena sedekah maka uangnya dilipatgandakan,
 atau karena tahajud maka segalanya serba dimudahkan.
 Bukan, ternyata bukan.
 
-Karena Dia, adalah Tugan yang Maha Agung, 
+Karena Dia, adalah Tuhan yang Maha Agung, 
 yang Maha Kuasa atas apapun, 
 yang kekuasaan-Nya tidak bisa diatur oleh siapapun.
 Kalau Dia lagi mau ngasih ke aku, ya aku nggak akan bisa menolak -- 
