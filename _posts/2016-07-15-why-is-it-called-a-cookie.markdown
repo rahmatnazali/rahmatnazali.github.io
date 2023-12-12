@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why is it called a Cookie?"
-date:   2016-07-15 17:19:27 +2000
+date:   2016-07-15 07:19:27 +0700
 ---
 
 > This article was migrated from my college notebook.
