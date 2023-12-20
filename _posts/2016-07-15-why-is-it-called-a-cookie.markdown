@@ -35,9 +35,12 @@ it is relatively easier to remember the cookie - that this exact particular pers
 
 The king may not remember this man's name, but the king remember his cookies 🙂
 
-In a real life, a server is serving hundreds of different clients, each with their own device.
-The server would not know who is who. That's why each of us would also provide a cookie when hitting an endpoint.
-With the cookie, the server doesn't really need to know well what's your name or more detailed personal information, 
-but can understand what you likely want by looking at your supplied cookies.
+In a real life, a server is serving hundreds of different clients, each of them having different needs.
+The server would not know who is who, so at some point (let's say, after logging in) it will generate a unique string and give it to the client. This is a cookie.
+The client would then save that unique string inside their browser, and provide it along the request of future web features.
+Due to how common this style is, it is handled automatically by majority the browsers, so plain user wouldn't recognize when the exchange is happening.
 
-Now try deleting all the cookies on your web browser 🙂
+With cookie, the server doesn't really need to know well what's your name or more detailed personal information of yours, 
+but it can understand what you likely want by looking from it.
+
+Now, try deleting all the cookies on your web browser 🙂
