@@ -167,11 +167,9 @@ Check this out: [al-folio](https://github.com/alshedivat/al-folio).
 
 All Jekyll ste settings is found inside `_config.yml` and you may want to configure it to your need.
 
->**Important**: Jekyll `serve` supports auto-reloading by default to ease your development session. 
->But any change introduced inside `_config.yml` will not be auto-reloaded, so always restart your development server
->after each of the change you have done in this file.
-> 
->(I found it the hard way 😭)
+**Important**: Jekyll `serve` supports auto-reloading by default to ease your development session. 
+But any change introduced inside `_config.yml` will not be auto-reloaded, so always restart your development server
+after each of the change you have done in this file (I found it the hard way 😭).
 
 ### Optionally edit or override how the theme behaves
 
