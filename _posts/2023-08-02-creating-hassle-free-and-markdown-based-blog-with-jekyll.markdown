@@ -49,7 +49,7 @@ So, this is how I got all of this working :
    - This is the official page for [installing Ruby and RubyGems](https://jekyllrb.com/docs/installation/).
    - Since I'm using Ubuntu, I followed this [Ubuntu Installation link](https://jekyllrb.com/docs/installation/ubuntu/) specifically, 
    with some note:
-     - When setting the RubyGem path, I opted for `~./gems` instead of the suggested `~/gems`. This is highly 
+     - When setting the RubyGem path, I opted for `~/.gems` instead of the suggested `~/gems`. This is highly 
      opinionated, but IMO this is much cleaner and properly merges with style from other stacks 
      such as `.docker`, `.git`, etc.
 
