@@ -49,7 +49,7 @@ So, this is how I got all of this working :
    - This is the official page for [installing Ruby and RubyGems](https://jekyllrb.com/docs/installation/).
    - Since I'm using Ubuntu, I followed this [Ubuntu Installation link](https://jekyllrb.com/docs/installation/ubuntu/) specifically, 
    with some note:
-     - When setting the RubyGem path, I opted for `~./gems` instead of the suggested `~/gems`. This is highly 
+     - When setting the RubyGem path, I opted for `~/.gems` instead of the suggested `~/gems`. This is highly 
      opinionated, but IMO this is much cleaner and properly merges with style from other stacks 
      such as `.docker`, `.git`, etc.
 
@@ -167,11 +167,9 @@ Check this out: [al-folio](https://github.com/alshedivat/al-folio).
 
 All Jekyll ste settings is found inside `_config.yml` and you may want to configure it to your need.
 
->**Important**: Jekyll `serve` supports auto-reloading by default to ease your development session. 
->But any change introduced inside `_config.yml` will not be auto-reloaded, so always restart your development server
->after each of the change you have done in this file.
-> 
->(I found it the hard way 😭)
+**Important**: Jekyll `serve` supports auto-reloading by default to ease your development session. 
+But any change introduced inside `_config.yml` will not be auto-reloaded, so always restart your development server
+after each of the change you have done in this file (I found it the hard way 😭).
 
 ### Optionally edit or override how the theme behaves
 
