@@ -23,7 +23,59 @@ whether I could create & finish something that are playable, with optimization a
 In around 16 days, I [coded](https://github.com/rahmatnazali/colonite){:target="_blank"} a simple unit simulation with a generic finite state machine.
 The unit can switch its state according to the surrounding situation, and we (the user) basically just watching them going against each other.
 
-To give some gamification, I added resource to spawn the unit, and declare a goal to get rid all the other team, and that's it.
+In Godot, a state machine implementation looks like this:
+
+```gdscript
+extends Node
+class_name StateMachine
+
+@export var enabled: bool = true
+@export var initial_state: GenericState
+
+var current_state: GenericState
+var states: Dictionary = {}
+
+func _ready():
+    for child in get_children():
+    if child is GenericState:
+        states[child.name.to_lower()] = child
+        child.transition.connect(on_child_transitioned)
+    else:
+        push_warning('StateMachine contains child which is not `State`: ', child)
+
+    if initial_state != null:
+        initial_state.enter()
+        current_state = initial_state
+    else:
+        push_warning('The initial_state` variable is not assigned,')
+
+func _process(delta):
+    if enabled and current_state != null:
+    current_state.update(delta)
+
+func _physics_process(delta):
+    if enabled and current_state != null:
+        current_state.physics_update(delta)
+
+func on_child_transitioned(source_state: GenericState, new_state_name: StringName):
+    if current_state != source_state:
+        return
+
+    var new_state: GenericState = states.get(new_state_name.to_lower())
+    if new_state == null:
+        push_warning('Called transition to state "' + new_state_name + '" state that does not exist in the `states` dictionary.')
+        return
+	
+    if current_state != null:
+        current_state.exit()
+	
+    new_state.enter()
+    current_state = new_state
+```
+
+<br>
+
+To give some gamification, I added resource to spawn the unit and declare a goal to get rid all the other team, and that's it.
 
 It's playable in browser, Windows, and Linux platform:
 
