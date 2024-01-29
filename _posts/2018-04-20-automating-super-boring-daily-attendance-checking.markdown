@@ -325,4 +325,4 @@ And that's it! We just automated all of this boring nonsense to a simple two cli
 
 If I could go more with this, I could add a 10 seconds timer to auto close the program so I just need 1 click now 👹
 
-Now let me drink some hot tea while people around me spending several minutes doing this everyday for the rest of their life.
+Now let me drink some hot tea while people around me spend several minutes doing this everyday for the rest of their life.
